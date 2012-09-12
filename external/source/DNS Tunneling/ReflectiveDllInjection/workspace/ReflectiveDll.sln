@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReflectiveDllStub", "ReflectiveDll.vcproj", "{00A54A45-C5D3-4E07-9456-F6409912F4D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InjectTest", "..\InjectTest\InjectTest.vcproj", "{42138687-615D-4D51-81BB-0E30DDEB76CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00A54A45-C5D3-4E07-9456-F6409912F4D5}.Debug|Win32.ActiveCfg = Release|Win32
+		{00A54A45-C5D3-4E07-9456-F6409912F4D5}.Debug|Win32.Build.0 = Release|Win32
+		{00A54A45-C5D3-4E07-9456-F6409912F4D5}.Release|Win32.ActiveCfg = Release|Win32
+		{00A54A45-C5D3-4E07-9456-F6409912F4D5}.Release|Win32.Build.0 = Release|Win32
+		{42138687-615D-4D51-81BB-0E30DDEB76CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42138687-615D-4D51-81BB-0E30DDEB76CD}.Debug|Win32.Build.0 = Debug|Win32
+		{42138687-615D-4D51-81BB-0E30DDEB76CD}.Release|Win32.ActiveCfg = Release|Win32
+		{42138687-615D-4D51-81BB-0E30DDEB76CD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
