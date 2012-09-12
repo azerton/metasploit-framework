@@ -9,4 +9,5 @@ tags
 *.swp
 *.orig
 *.rej
+*.svn
 .DS_Store
