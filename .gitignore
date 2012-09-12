@@ -11,3 +11,5 @@ tags
 *.rej
 *.svn
 .DS_Store
+
+data/dnstunnel/calc.bin
